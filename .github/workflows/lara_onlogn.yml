@@ -23,3 +23,6 @@ jobs:
       - name: Push Docker Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/laravel_nlogn
 
+      - name: Remove Docker Image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/laravel_nlogn
+
